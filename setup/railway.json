@@ -1,0 +1,8 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "java -jar tracker-server.jar conf/traccar.xml"
+  }
+}
